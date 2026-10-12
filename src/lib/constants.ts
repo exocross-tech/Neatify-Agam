@@ -1,0 +1,37 @@
+export const BRAND = {
+  name: "NEATIFY AGAM",
+  tagline: "Make It Neat. Make It Home.",
+  scripture: "“Let all that you do be done in love.”",
+  scriptureRef: "1 Corinthians 16:14",
+  corePillars: ["CLEAN", "ORGANISE", "SETUP", "ASSIST", "CARE"],
+  leadContact: "Prakash Bro",
+  phone: "+91 9962 9171 47",
+  rawPhone: "919962917147",
+  telLink: "tel:+919962917147",
+  whatsappBase: "https://wa.me/919962917147",
+  defaultWhatsAppMsg: "Hi Prakash, I would like a quote.",
+  serviceArea: "All over Chennai",
+  availability: "Open 24/7 (based on customer scheduling and need)",
+  entryPrice: "₹99",
+  charityCommitment: {
+    companionPercent: "10%",
+    otherServicesPercent: "5%",
+    beneficiaries: "Orphanages & Children's Homes",
+    reporting: "Shared transparently with each customer",
+  },
+  breakagePolicy: "Breakage caused by our team is covered up to ₹1,000 or 50% of the service fee, whichever is lower.",
+  liftingLimit: "Lifting limit of 25 kg per item maximum",
+};
+
+export const NAVIGATION_LINKS = [
+  { name: "Services", href: "#services" },
+  { name: "Sectors", href: "#sectors" },
+  { name: "Pricing", href: "#pricing" },
+  { name: "Packages", href: "#packages" },
+  { name: "Reviews", href: "#testimonials" },
+  { name: "How It Works", href: "#how-it-works" },
+  { name: "Our Promise", href: "#promises" },
+  { name: "Hundi of Help", href: "#hundi-of-help" },
+  { name: "FAQ", href: "#faq" },
+  { name: "Contact", href: "#contact" },
+];
