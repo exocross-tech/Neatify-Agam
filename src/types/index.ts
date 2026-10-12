@@ -60,6 +60,10 @@ export interface FaqItem {
 export interface TestimonialItem {
   id: string;
   service: string;
+  title: string;
   reviewText: string;
   customerName: string;
+  rating: number;
+  category: string;
+  location?: string;
 }

@@ -9,7 +9,12 @@ export const FAQS: FaqItem[] = [
   {
     question: "Which areas in Chennai do you cover?",
     answer:
-      "We serve all locations and neighbourhoods across Chennai, including Central Chennai, OMR, ECR, Anna Nagar, Velachery, Porur, Tambaram, Adyar, Kilpauk, and surrounding suburbs.",
+      "We provide rapid doorstep coverage with dedicated service hubs in Mogappair East, Mogappair West, Panneer Nagar, Nolambur, Anna Nagar, Anna Nagar West Extension, Thirumangalam, Padi, Ambattur, Korattur, Arumbakkam, Koyambedu, Maduravoyal, Ayanambakkam, and Kil Ayanambakkam. We also cater to homes and commercial spaces all over Chennai upon customer booking.",
+  },
+  {
+    question: "Do you clean overhead concrete and plastic water tanks?",
+    answer:
+      "Yes! We specialize in both Overhead Concrete Water Tank Cleaning and Plastic (Sintex) Water Tank Cleaning. Our process includes de-watering, sludge extraction, thorough high-pressure surface scrubbing, descaling, and bacterial disinfection to ensure clean, safe domestic water for your family.",
   },
   {
     question: "Are your services really available 24/7?",

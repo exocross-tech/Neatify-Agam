@@ -10,6 +10,7 @@ import { Pricing } from "@/components/sections/Pricing";
 import { HomePackages } from "@/components/sections/HomePackages";
 import { MonthlyPlans } from "@/components/sections/MonthlyPlans";
 import { Testimonials } from "@/components/sections/Testimonials";
+import { ServiceAreas } from "@/components/sections/ServiceAreas";
 import { Loyalty } from "@/components/sections/Loyalty";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Promises } from "@/components/sections/Promises";
@@ -33,6 +34,7 @@ export default function Home() {
         <HomePackages />
         <MonthlyPlans />
         <Testimonials />
+        <ServiceAreas />
         <Loyalty />
         <HowItWorks />
         <Promises />

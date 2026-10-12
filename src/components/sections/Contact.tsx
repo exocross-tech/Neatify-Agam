@@ -151,14 +151,30 @@ export const Contact: React.FC = () => {
                       <label className="block text-xs font-bold text-[var(--ink)] mb-1.5 uppercase tracking-wider">
                         Location in Chennai *
                       </label>
-                      <input
-                        type="text"
+                      <select
                         required
-                        placeholder="e.g. Anna Nagar / Velachery"
                         value={formData.location}
                         onChange={(e) => setFormData({ ...formData, location: e.target.value })}
                         className="w-full px-4 py-2.5 rounded-xl bg-[var(--card)] border border-[var(--line)] text-xs text-[var(--ink)] focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"
-                      />
+                      >
+                        <option value="">Select your area...</option>
+                        <option value="Mogappair East">Mogappair East</option>
+                        <option value="Mogappair West">Mogappair West</option>
+                        <option value="Panneer Nagar">Panneer Nagar</option>
+                        <option value="Nolambur">Nolambur</option>
+                        <option value="Anna Nagar">Anna Nagar</option>
+                        <option value="Anna Nagar West Extension">Anna Nagar West Extension</option>
+                        <option value="Thirumangalam">Thirumangalam</option>
+                        <option value="Padi">Padi</option>
+                        <option value="Ambattur">Ambattur</option>
+                        <option value="Korattur">Korattur</option>
+                        <option value="Arumbakkam">Arumbakkam</option>
+                        <option value="Koyambedu">Koyambedu</option>
+                        <option value="Maduravoyal">Maduravoyal</option>
+                        <option value="Ayanambakkam">Ayanambakkam</option>
+                        <option value="Kil Ayanambakkam">Kil Ayanambakkam</option>
+                        <option value="Other Area in Chennai">Other Area in Chennai</option>
+                      </select>
                     </div>
                   </div>
 
@@ -172,14 +188,16 @@ export const Contact: React.FC = () => {
                         onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                         className="w-full px-4 py-2.5 rounded-xl bg-[var(--card)] border border-[var(--line)] text-xs text-[var(--ink)] focus:outline-none focus:ring-2 focus:ring-[var(--gold)]"
                       >
-                        <option>Home Setup & Organisation</option>
-                        <option>Bathroom & Toilet Care</option>
-                        <option>New Home → Ready Home Move-in</option>
-                        <option>Bridal & Wedding Setup</option>
-                        <option>Companion & Senior Care</option>
+                        <option>Small Home Jobs & Micro-Tasks (From ₹99)</option>
+                        <option>Overhead Water Tank Cleaning (Concrete/Plastic)</option>
+                        <option>Wardrobe & Cupboard Organising</option>
+                        <option>New Home / Apartment Setup (Ready Home)</option>
+                        <option>Home & Bathroom Deep Cleaning</option>
+                        <option>Balcony & Terrace Cleaning</option>
+                        <option>Office, Shop & Warehouse Cleaning</option>
+                        <option>Elderly Accompaniment & Lifestyle Assistance</option>
+                        <option>Pooja Room & Festival Preparation</option>
                         <option>Errands & Extra Hands (Hourly)</option>
-                        <option>Pet & Plant Care</option>
-                        <option>Commercial / Office / Salon Setup</option>
                         <option>Other Custom Task</option>
                       </select>
                     </div>
@@ -198,8 +216,9 @@ export const Contact: React.FC = () => {
                         <option>3 BHK Apartment / Flat</option>
                         <option>4 BHK / Villa / Independent House</option>
                         <option>PG / Hostel Room</option>
-                        <option>Office / Commercial Space</option>
-                        <option>Single Bathroom / Toilet</option>
+                        <option>Office / Retail Store / Showroom</option>
+                        <option>Warehouse / Godown (Ambattur)</option>
+                        <option>Overhead Concrete/Plastic Tank</option>
                         <option>Other Space</option>
                       </select>
                     </div>

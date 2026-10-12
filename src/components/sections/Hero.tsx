@@ -35,13 +35,25 @@ export const Hero: React.FC = () => {
             </Reveal>
 
             <Reveal delay={0.3}>
-              <p className="text-base sm:text-lg md:text-xl text-[var(--mute)] leading-relaxed mb-8 max-w-2xl">
-                From everyday flats to corporate offices, institutions, and community spaces,{" "}
+              <p className="text-base sm:text-lg md:text-xl text-[var(--mute)] leading-relaxed mb-6 max-w-2xl">
+                From small <strong className="text-[var(--ink)] font-bold">₹99 household jobs</strong>, wardrobe organising, and overhead water tank cleaning to turnkey ready-home setups across{" "}
+                <span className="text-[var(--ink)] font-semibold">Mogappair, Anna Nagar, Nolambur, Ambattur, Korattur, and Central-West Chennai</span>,{" "}
                 <strong className="text-[var(--ink)] font-bold">NEATIFY AGAM</strong> cleans,
-                organises, arranges, and sets up with heart-felt excellence. Small jobs start from{" "}
-                <span className="font-bold text-[var(--ink)]">₹99</span>. You get a clear upfront
-                quote first and pay after we inspect together.
+                organises, and arranges with heart-felt excellence. Upfront quote first, pay after joint inspection.
               </p>
+              
+              {/* Quick neighborhood availability pill */}
+              <div className="flex flex-wrap items-center gap-1.5 text-xs text-[var(--mute)] mb-8">
+                <span className="font-bold text-[var(--gold)]">Active Hubs:</span>
+                <span className="bg-[var(--gold)]/10 px-2 py-0.5 rounded-md text-[var(--ink)] font-medium">Mogappair East & West</span>
+                <span className="bg-[var(--gold)]/10 px-2 py-0.5 rounded-md text-[var(--ink)] font-medium">Anna Nagar</span>
+                <span className="bg-[var(--gold)]/10 px-2 py-0.5 rounded-md text-[var(--ink)] font-medium">Nolambur</span>
+                <span className="bg-[var(--gold)]/10 px-2 py-0.5 rounded-md text-[var(--ink)] font-medium">Ambattur</span>
+                <span className="bg-[var(--gold)]/10 px-2 py-0.5 rounded-md text-[var(--ink)] font-medium">Panneer Nagar</span>
+                <a href="#service-areas" className="text-[var(--gold)] font-bold hover:underline ml-1">
+                  +10 More &rarr;
+                </a>
+              </div>
             </Reveal>
 
             <Reveal delay={0.4}>
@@ -90,7 +102,7 @@ export const Hero: React.FC = () => {
                   </div>
                   <div>
                     <div className="text-xs text-[var(--mute)]">Coverage</div>
-                    <div className="text-sm font-bold text-[var(--ink)]">All Over Chennai</div>
+                    <div className="text-sm font-bold text-[var(--ink)]">Mogappair & Chennai</div>
                   </div>
                 </div>
               </div>
