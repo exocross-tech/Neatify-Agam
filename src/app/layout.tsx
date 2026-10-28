@@ -139,13 +139,14 @@ export default function RootLayout({
               (function() {
                 try {
                   const storedTheme = localStorage.getItem('neatify_theme');
-                  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                  if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
+                  if (storedTheme === 'dark') {
                     document.documentElement.setAttribute('data-theme', 'dark');
                   } else {
                     document.documentElement.setAttribute('data-theme', 'light');
                   }
-                } catch (e) {}
+                } catch (e) {
+                  document.documentElement.setAttribute('data-theme', 'light');
+                }
               })();
             `,
           }}
